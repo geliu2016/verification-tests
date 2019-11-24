@@ -1,6 +1,7 @@
 Feature: basic verification for upgrade testing
   # @author geliu@redhat.com
   # @case_id OCP-26204
+  @admin
   Scenario: upgrade automation test example upgrade-prepare
     Given I switch to cluster admin pseudo user
     When I run the :new_project client command with:
