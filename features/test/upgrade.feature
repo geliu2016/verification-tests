@@ -1,7 +1,8 @@
 Feature: basic verification for upgrade testing
   # @author geliu@redhat.com
   # @case_id OCP-26204
-  Scenario: upgrade automation test example upgrade-prepare	
+  Scenario: upgrade automation test example upgrade-prepare
+    Given I switch to cluster admin pseudo user
     When I run the :new_project client command with:
       | project_name | project-ocp26204 |
     Then the step should succeed
