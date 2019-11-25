@@ -16,10 +16,9 @@ Feature: basic verification for upgrade testing
   #@author geliu@redhat.com
   #@case_id OCP-26205
   @admin
-  Scenario: cakephp example works well after migrate
+  Scenario: upgrade automation test example upgrade-check
     Given I switch to cluster admin pseudo user
     Given I use the "project-ocp26204" project
-    # This is upgrade example by geliu
 
   # @author geliu@redhat.com
   # @case_id OCP-22606
