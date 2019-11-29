@@ -15,8 +15,8 @@ Feature: basic verification for upgrade testing
 
   #@author geliu@redhat.com
   #@case_id OCP-26204
-  #@admin
+  @admin
   Scenario: upgrade automation test example
-    #Given I switch to cluster admin pseudo user
+    Given I switch to cluster admin pseudo user
     Given I use the "project-ocp26204" project
 
