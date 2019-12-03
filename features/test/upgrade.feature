@@ -1,6 +1,6 @@
 Feature: basic verification for upgrade testing
   @upgrade-prepare
-  Scenario: upgrade automation test example - prepare
+  Scenario: upgrade automation test example
     # Given I switch to cluster admin pseudo user
     When I run the :new_project client command with:
       | project_name | project-ocp26204 |
