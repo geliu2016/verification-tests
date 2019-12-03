@@ -1,6 +1,4 @@
 Feature: basic verification for upgrade testing
-  # @author geliu@redhat.com
-  # @case_id OCP-26204
   @upgrade-prepare
   Scenario: upgrade automation test example - prepare
     # Given I switch to cluster admin pseudo user
