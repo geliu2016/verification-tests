@@ -1,5 +1,6 @@
 Feature: basic verification for upgrade testing
   @upgrade-prepare
+  @users=upuser1,upuser2
   Scenario: upgrade automation test example
     #Given I log the message> Hi Prepare!   
     # Given I switch to cluster admin pseudo user
