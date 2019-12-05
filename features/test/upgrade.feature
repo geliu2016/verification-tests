@@ -1,7 +1,7 @@
 Feature: basic verification for upgrade testing
   @upgrade-prepare
   @users=upuser1,upuser2
-  Scenario: upgrade automation test example
+  Scenario: upgrade automation test example - prepare
     #Given I log the message> Hi Prepare!   
     # Given I switch to cluster admin pseudo user
     When I run the :new_project client command with:
