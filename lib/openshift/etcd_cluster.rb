@@ -1,4 +1,4 @@
-require 'openshift/cluster_resource'
+require 'openshift/project_resource'
 
 module BushSlicer
   class EtcdCluster < ProjectResource
